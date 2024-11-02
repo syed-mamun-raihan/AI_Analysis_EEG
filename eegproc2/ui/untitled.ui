@@ -1,0 +1,277 @@
+<ui version="4.0" >
+ <author>Syed Mamun Raihan</author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>708</width>
+    <height>567</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Dialog</string>
+  </property>
+  <widget class="QToolButton" name="toolButton" >
+   <property name="geometry" >
+    <rect>
+     <x>640</x>
+     <y>10</y>
+     <width>61</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="toolTip" >
+    <string>Exit from the program</string>
+   </property>
+   <property name="text" >
+    <string>Exit</string>
+   </property>
+   <property name="toolButtonStyle" >
+    <enum>Qt::ToolButtonTextOnly</enum>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>711</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="currentIndex" >
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab" >
+    <attribute name="title" >
+     <string>Analysis</string>
+    </attribute>
+    <widget class="QLabel" name="label_2" >
+     <property name="geometry" >
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>mV or uV</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label" >
+     <property name="geometry" >
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>68</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Input File</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5" >
+     <property name="geometry" >
+      <rect>
+       <x>30</x>
+       <y>100</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>No# of Channels</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3" >
+     <property name="geometry" >
+      <rect>
+       <x>260</x>
+       <y>50</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Sampling rate</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6" >
+     <property name="geometry" >
+      <rect>
+       <x>260</x>
+       <y>100</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Ignore Channels</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4" >
+     <property name="geometry" >
+      <rect>
+       <x>480</x>
+       <y>50</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Hz</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2" >
+     <property name="geometry" >
+      <rect>
+       <x>380</x>
+       <y>50</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="toolTip" >
+      <string>For consistent processing 500 Hz sampling will downsampled to 250 Hz</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton" >
+     <property name="geometry" >
+      <rect>
+       <x>160</x>
+       <y>150</y>
+       <width>99</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Add to List</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2" >
+     <property name="geometry" >
+      <rect>
+       <x>280</x>
+       <y>150</y>
+       <width>99</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Delete</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3" >
+     <property name="geometry" >
+      <rect>
+       <x>400</x>
+       <y>150</y>
+       <width>99</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Run</string>
+     </property>
+    </widget>
+    <widget class="QListView" name="listView" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>681</width>
+       <height>301</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2" >
+     <property name="geometry" >
+      <rect>
+       <x>160</x>
+       <y>100</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>21</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_3" >
+     <property name="geometry" >
+      <rect>
+       <x>380</x>
+       <y>100</y>
+       <width>301</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="toolTip" >
+      <string>Enter comma , semi colon or  space seperated values</string>
+     </property>
+     <property name="text" >
+      <string>11, 21</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit" >
+     <property name="geometry" >
+      <rect>
+       <x>160</x>
+       <y>10</y>
+       <width>521</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="toolTip" >
+      <string>Output file will be in the same directory as the program itself is running, name of the output file will be Trend.txt, header.txt, timestamp.txt</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox" >
+     <property name="geometry" >
+      <rect>
+       <x>160</x>
+       <y>50</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="toolTip" >
+      <string>for consistent numerical value mV will be converted to uV</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2" >
+    <attribute name="title" >
+     <string>View</string>
+    </attribute>
+   </widget>
+  </widget>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <includes/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>toolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>670</x>
+     <y>24</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>353</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

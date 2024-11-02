@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE SPSSComplexSamples SYSTEM "http://xml.spss.com/spss/complex-samples/spss-complex-samples-1.0.dtd">
+<SPSSComplexSamples version="1.0">
+	<Header copyright="Copyright (c) SPSS Inc., 2004. All Rights Reserved."/>
+	<AnalysisDesign numberOfStages="1">
+		<AnalysisStage estimationMethod="wr" stageNumber="1">
+			<StrataVarList numberOfVariables="1">
+				<Variable name="V1"/>
+			</StrataVarList>
+			<ClusterVarList numberOfVariables="1">
+				<Variable name="class"/>
+			</ClusterVarList>
+		</AnalysisStage>
+		<Weight>
+			<Variable name="V5"/>
+		</Weight>
+	</AnalysisDesign>
+</SPSSComplexSamples>

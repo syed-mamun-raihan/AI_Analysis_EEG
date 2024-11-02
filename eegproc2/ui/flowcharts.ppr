@@ -1,0 +1,731 @@
+#	FILE_START
+#	GROUP_START	FILE_INFO
+*	FILE_ID	101
+*	VERSION	1
+#	GROUP_END
+#	GROUP_START	MISC_CHAR
+*	MISC_DFP	"E_SSCP$"
+*	MISC_SCFDFE	"$"
+*	MISC_SSS	""
+*	MISC_DP	"C:\Program Files\SGV Sarc\Crystal C++\FLOW"
+*	MISC_SRC_FL_TYPE	"*.cpp;*.c;"
+*	MISC_HDR_FL_TYPE	"*.hpp;*.h;"
+*	MISC_CMPILR_NAME	"1"
+*	MISC_CMPILR_PATH	"C:\Program Files\Microsoft Visual Studio\VC98\Bin\cl.exe"
+*	MISC_PPD_LIST	""
+*	BATCH_FILE_PATH	""
+#	GROUP_END
+#	GROUP_START	PRJ_GEN_FLAGS_GROUP
+*	PI_TF	2
+*	PI_FBSZ	117
+*	PI_DFBSZ	227
+#	GROUP_END
+#	GROUP_START	SOURCE_FILES
+@	ENTITY_GROUP_START
+*	FILE_NAME	"..\eegproc2.cpp"
+*	SFSZ	44
+*	SFNL	1745
+*	SFSL	805
+*	DBP	1
+*	DBUTD	1
+*	XFD	0
+*	SFTYP	1
+*	SFDT	1177262054
+*	SFBINFO	1
+*	PRJ_MSNG_INC	0
+@	ENTITY_GROUP_END
+@	ENTITY_GROUP_START
+*	FILE_NAME	"..\eegproc2.h"
+*	SFSZ	15
+*	SFNL	570
+*	SFSL	151
+*	DBP	1
+*	DBUTD	1
+*	XFD	0
+*	SFTYP	2
+*	SFDT	1177262191
+*	SFBINFO	1
+*	PRJ_MSNG_INC	0
+@	ENTITY_GROUP_END
+#	GROUP_END
+#	GROUP_START	INCLUDE_PATH
+*	PATH	"C:\Program Files\Microsoft Visual Studio 8\VC\include"
+*	PATH	"C:\Users\shaikat\Documents\workspace\eegproc2"
+*	INC_SD	0
+#	GROUP_END
+#	GROUP_START	SOURCE_CODE_CONTROL_GROUP
+*	PRJ_NAME	""
+*	LCL_PATH	""
+*	AUXLRY_PATH	""
+*	FLG_LTST_FL	0
+*	FLG_EDT_CHKOUT	1
+*	FLG_CHKIN	0
+*	FLG_ADD	1
+*	FLG_CHKOUT	1
+*	FLG_FRGT_MDFD_LNS	1
+*	FLG_RFRSH_ON_RELOAD	0
+#	GROUP_END
+#	GROUP_START	FMT_GROUP
+*	FMT_CDFW	512
+*	FMT_CMFW	416
+*	FMT_CHAR_CDFW	64
+*	FMT_CHAR_CMFW	52
+*	FMT_TAB	4
+*	FMT_TSESSION	1
+*	FMT_INDENT_SIZE	4
+*	FMT_TSP	0
+*	FMT_FS	0
+*	FMT_DCDF	0
+*	FMT_STL	1
+*	FMT_PPP	0
+*	FMT_DCF	0
+*	FMT_AEC	0
+*	FMT_AEAB	0
+*	FMT_AEB	0
+*	FMT_NCA	0
+*	FMT_KRS	0
+*	FMT_INITLZR	0
+*	FMT_ACTSF	0
+*	FONT_NAME	"Courier New"
+*	FONT_SIZE	10
+*	FONT_PXLHT	16
+*	FONT_AVGW	7
+*	FONT_BOLD	0
+*	FONT_ITALIC	0
+*	FONT_UNDRLN	0
+*	SPACE_HPPK	0
+*	SPACE_FUNC_PL	1
+*	SPACE_MAC_LPAR	0
+*	sb_around_mac_arg_list	0
+*	SPACE_STMT_KYWRD	0
+*	SPACE_STMT_EXPR	1
+*	SPACE_JUMP_STMT	0
+*	SPACE_ARR_IDX	1
+*	SPACE_ARR_SZ	1
+*	SPACE_COMMA	1
+*	NEW_LN_AFTR_TYPSPCFR	0
+*	NEW_LN_AFTR_PARAM	0
+*	EXPRSNS_IN_FOR_STMT	0
+*	STTMNT_HDR_FOLLOWED_BY_SMCLN	1
+*	else_n_fllwng_if_on_sep_ln	0
+*	sep_lns_evry_enumrtr	0
+*	sep_lns_every_declarator_in_dcln	1
+*	sep_lns_every_declarator_in_mmbr_dcln	1
+*	sep_lns_rbrce_n_trlr	0
+*	SPACE_AFTR_INCLUDE	5
+*	SPACE_AFTR_DEFINE	5
+*	sb_after_const_expr_in_case_stmt	0
+*	sb_after_unary_oprtr	0
+*	sb_arg_n_comma	0
+*	sb_around_arg_list_in_fun_call	1
+*	sb_around_array_size_r_index_expr	1
+*	sb_around_declarator_inside_pars	1
+*	sb_around_initialiser_inside_braces	1
+*	sb_around_list_r_expr_inside_pars	1
+*	sb_around_mac_param_list	1
+*	sb_around_type_name_in_cast_expr	1
+*	sb_arr_name_n_l_sq_brkt	0
+*	sb_asterick_n_declarator	0
+*	sb_asterick_n_type_qualifier	0
+*	sb_before_comma	0
+*	sb_before_lpar_r_lbrckt	0
+*	sb_before_terminating_semicol	0
+*	sb_between_asterisks_in_declarator	0
+*	sb_between_successive_pars	1
+*	sb_case_n_const_expr	1
+*	sb_colon_n_const_expr_in_bitfields	1
+*	sb_colon_n_expr_in_cond_expr	0
+*	sb_comma_and_declarator	1
+*	sb_comma_n_arg	1
+*	sb_comma_n_enumrtr	1
+*	sb_comma_n_expr	1
+*	sb_comma_n_idfr_in_fun_hdr	1
+*	sb_rbrace_n_semicolon_in_trailers	1
+*	sb_comma_n_initialiser	1
+*	sb_comma_n_macro_param	1
+*	sb_comma_n_param_decl	1
+*	sb_const_n_fl_name_in_hash_line	1
+*	sb_decl_hdr_tag_n_lbrace	1
+*	sb_decl_spcfr_n_lpar	1
+*	sb_decl_spcfr_n_semi_col	0
+*	sb_declarator_and_comma	0
+*	sb_declarator_and_semi_col	0
+*	sb_declarator_n_colon_in_bitfields	1
+*	sb_declarator_n_equal_sign	1
+*	sb_declarator_n_l_sq_brkt	0
+*	sb_default_n_colon	0
+*	sb_stmt_hdr_n_lbrace	1
+*	sb_dot_r_arrow_n_member	0
+*	sb_enumrtr_n_comma	0
+*	sb_enumrtr_n_equal_sign	1
+*	sb_equal_sign_n_initialiser	1
+*	sb_equalto_n_const_expr_in_enum	1
+*	sb_expr_n_colon_in_cond_expr	0
+*	sb_expr_n_comma	0
+*	sb_expr_n_dot_r_arrow	0
+*	sb_expr_n_que_mrk_in_cond_expr	0
+*	sb_expr_n_semi_col	0
+*	sb_for_expr_n_semi_col	0
+*	sb_fun_declarator_name_n_lpar	0
+*	sb_fun_name_n_lpar_in_fun_call	0
+*	sb_hash_error_n_tkn_seq	1
+*	sb_hash_if_r_elif_n_const_expr	1
+*	sb_hash_ifdef_r_ifndef_n_idfr	1
+*	sb_hash_pragma_n_tkn_seq	1
+*	sb_hash_line_n_const	1
+*	sb_idfr_n_colon_in_label_stmt	0
+*	sb_idfr_n_comma_in_fun_hdr	0
+*	sb_idfr_n_semi_col_in_goto	0
+*	sb_after_idfr_r_rpar_in_hash_define	5
+*	sb_incr_decr_oprtr_n_operand	0
+*	sb_initialiser_n_comma	0
+*	sb_inside_lr_sq_brckts_in_arr_dcln	1
+*	sb_around_assignment_oprtr	1
+*	sb_mac_param_n_comma	0
+*	sb_modifier_n_declarator	1
+*	sb_around_binary_oprtr	1
+*	sb_operand_n_incr_decr_oprtr	0
+*	sb_param_decl_n_comma	0
+*	sb_que_mrk_n_expr_in_cond_expr	1
+*	sb_rbrace_n_while_kywd	1
+*	sb_semi_col_n_for_expr	1
+*	sb_sizeof_kywd_n_expr	1
+*	sb_sizeof_kywd_n_lpar	0
+*	sb_unary_oprtr_n_operand	0
+*	sb_type_spcfr_n_declarator	1
+*	sb_type_spcfr_n_param	1
+*	sb_successive_type_spcfrs_r_mdfrs	2
+*	BASE_CLASS_SPCFR_ON_SEP_LNS	0
+*	INITLSR_LST_ON_SEP_LNS	0
+*	INITLSRS_ON_SEP_LNS	0
+*	every_param_of_tmplt_dcln_on_sep_lns	0
+*	tmplt_spcfr_n_dcln_on_sep_lns	1
+*	access_spcfr_n_mmbr_spcfcn_inside_class_on_sep_lns	1
+*	sb_successive_angle_brkts_in_tmplts	1
+*	sb_nmspc_kywd_n_nmspc_name	1
+*	sb_using_n_nmspc_kywd	1
+*	sb_using_n_tpnm_kywd_in_using_dcln	1
+*	sb_using_kywd_n_nns	1
+*	sb_asm_kywd_n_lpar	0
+*	sb_before_SRO	0
+*	sb_after_SRO	0
+*	sb_after_new_kywd_in_new_expr	1
+*	sb_after_new_plcmnt_in_new_expr	1
+*	sb_new_type_id_n_new_initialiser	0
+*	sb_after_delete_kywd_in_delete_expr	1
+*	sb_lr_sq_brkt_n_expr_in_delete_expr	1
+*	sb_cast_kywd_n_l_ang_brkt	0
+*	sb_r_ang_brkt_n_lpar_in_cast_expr	0
+*	sb_extern_kywd_n_str_literal_in_linkage_spcfcn	1
+*	sb_after_str_literal_in_linkage_spcfcn	1
+*	sb_export_n_tmplt_kywd	1
+*	sb_t_tmplt_kywd_n_l_ang_brkt	0
+*	sb_t_around_tmplt_param_list	0
+*	sb_t_tmplt_param_n_comma	0
+*	sb_t_comma_n_tmplt_param	0
+*	sb_t_after_cls_r_tpnm_kywd	1
+*	sb_t_around_tmplt_arg_list	1
+*	sb_t_tmplt_arg_n_comma	1
+*	sb_t_comma_n_tmplt_arg	1
+*	sb_tmplt_name_n_l_ang_brkt	0
+*	sb_t_r_ang_brkt_n_dcln	0
+*	sb_e_catch_kywd_n_lpar	0
+*	sb_e_around_excptn_dcln	0
+*	sb_e_throw_kywd_n_lpar	0
+*	sb_e_throw_kywd_n_expr	1
+*	sb_e_around_type_id_list	1
+*	sb_e_type_id_n_comma	0
+*	sb_e_comma_n_type_id	0
+*	sb_after_rpar_in_fun_defn_r_dcln	0
+*	sb_cv_qlfr_seq_n_excptn_spcfcn	1
+*	sb_declarator_n_pure_spcfr	0
+*	sb_equalto_n_zero_in_pure_spcfr	0
+*	sb_c_access_spcfr_n_colon_in_mmbr_spcfcn	0
+*	sb_c_colon_n_mmbr_spcfcn_inside_class	0
+*	sb_c_class_kywd_n_class_name	1
+*	sb_c_class_name_n_base_clause	0
+*	sb_c_colon_n_base_spcfr_list_in_base_clause	0
+*	sb_c_access_spcfr_n_cls_name_in_base_clause	1
+*	sb_c_base_spcfr_list_n_comma	0
+*	sb_c_comma_n_base_spcfr	0
+*	sb_c_virtual_kywd_n_access_spcfr	1
+*	sb_c_colon_n_mmbr_initialiser_list	0
+*	sb_c_cls_name_r_idfr_n_lpar_in_mmbr_initialiser	0
+*	sb_c_tilde_n_cls_name_or_typename	0
+*	sb_c_declarator_n_ctor_initialiser_in_fun_defn	0
+*	sb_c_nns_n_tpnm_in_pseudo_dstrctr_name	0
+*	sb_c_declarator_n_try_kywd_in_fun_defn	0
+*	sb_c_try_kywd_n_ctor_initialiser_in_fun_defn	0
+*	sb_around_type_id_in_postfix_expr	0
+*	sb_oprtr_kywd_n_oprtr_char	1
+*	sb_oprtr_kywd_n_conv_type_id	1
+*	sb_type_spcfr_n_conv_declarator	0
+#	GROUP_END
+#	GROUP_START	CUSTM_EDIT_GROUP
+*	AUTO_CMID	1
+*	AUTO_PARM	1
+*	AUTO_WRN	1
+*	EXP_CP	1
+*	DISP_IDFR	0
+*	DISP_IDFR_TST_MD	1
+#	GROUP_END
+#	GROUP_START	DTP_FL_GROUP
+@	ENTITY_GROUP_START
+*	DTP_FILE_NAME	"C:\Users\shaikat\Documents\workspace\eegproc2\eegproc2.cpppre"
+*	DTP_BESO	0
+*	DTP_BSSO	0
+*	DTP_BOTTOM	1104
+*	DTP_CMC	0
+*	DTP_CMR	1069
+*	DTP_COSF	12
+*	DTP_FSH	0.997845
+*	DTP_FSW	0.991597
+*	DTP_FLG_FOS	3
+*	DTP_FLG_SUSP	0
+*	DTP_FLG_OPENED	0
+*	DTP_FLG_OM	0
+*	DTP_FLG_SCE_FILE	1
+*	DTP_STBX	0
+*	DTP_STBY	0
+*	DTP_STTX	0
+*	DTP_STTY	0
+*	DTP_SFEX	0
+*	DTP_SFSX	0
+*	DTP_TLX	0.006875
+*	DTP_TLY	0.000000
+*	DTP_TOP	1049
+*	DTP_FLG_VALID	1
+*	DTP_FLG_MAX	1
+@	ENTITY_GROUP_END
+@	ENTITY_GROUP_START
+*	DTP_FILE_NAME	"C:\Users\shaikat\Documents\workspace\eegproc2\eegproc2.cpp"
+*	DTP_BESO	0
+*	DTP_BSSO	0
+*	DTP_BOTTOM	544
+*	DTP_CMC	0
+*	DTP_CMR	528
+*	DTP_COSF	0
+*	DTP_FSH	0.997253
+*	DTP_FSW	0.998472
+*	DTP_FLG_FOS	3
+*	DTP_FLG_SUSP	0
+*	DTP_FLG_OPENED	1
+*	DTP_FLG_OM	0
+*	DTP_FLG_SCE_FILE	1
+*	DTP_STBX	0
+*	DTP_STBY	0
+*	DTP_STTX	0
+*	DTP_STTY	0
+*	DTP_SFEX	0
+*	DTP_SFSX	0
+*	DTP_TLX	0.000000
+*	DTP_TLY	0.000000
+*	DTP_TOP	501
+*	DTP_FLG_VALID	1
+*	DTP_FLG_MAX	1
+@	ENTITY_GROUP_END
+#	GROUP_END
+#	GROUP_START	FWCO_GROUP
+*	CLR_FW_BG	1
+*	CLR_FT_CMT	5
+*	GEN_CLR_FT_CMT	27
+*	CLR_FT_KW	28
+*	CLR_FT_PPRS	28
+*	CLR_FT_IS	11
+*	CLR_FT_CS	26
+*	CLR_FT_LGT	3
+*	CLR_FT_MB	6
+*	CLR_FT_OP	14
+*	CLR_FT_OTH	0
+*	CLR_FT_ST	12
+*	CLR_FT_SC	2
+*	CLR_FT_UMB	12
+*	FLW_HBAR_PRSNT	1
+*	FLW_SMRGN_PRSNT	1
+*	CLR_FW_HP_BG	8
+*	CLR_FW_ML_BG	17
+*	FN_OUTLN_CLR	22
+*	FLW_MRKER_CLR	26
+*	FLW_LINENO_CLR	0
+*	FLW_KYWRD_BOLD	1
+*	FLW_PPSOR_BOLD	0
+*	FLW_OPRTR_BOLD	0
+*	FLW_ENTITY_BOLD	1
+#	GROUP_END
+#	GROUP_START	GRWCO_GROUP
+*	CLR_GW_ARW	12
+*	CLR_GW_BG	1
+*	CLR_GW_CP	4
+*	CLR_GW_CRV	13
+*	CLR_GW_HFO	7
+*	CLR_GW_HFG	6
+*	CLR_GW_HC	16
+*	CLR_GW_HL	14
+*	CLR_GW_HP	17
+*	CLR_GW_LG	12
+*	CLR_GW_LO	0
+*	CLR_GW_MFG	11
+*	CLR_GW_MFO	11
+*	CLR_GW_NB	13
+*	CLR_GW_NRO_BG	1
+*	CLR_GW_NRO_FG	0
+*	CLR_GW_NRG_BG	12
+*	CLR_GW_NRG_FG	0
+*	CLR_GW_SAL	0
+*	CLR_GW_MPFO	13
+*	CLR_GW_MPFG	13
+*	CLR_GW_HCNBO	8
+*	GRW_PCT_DUP_DEFN_AS_CHLD	1
+*	GRW_CT_DUP_DEFN_AS_CHLD	0
+*	GRW_TB_PRESENT	1
+*	GRW_TB_TYPE	0
+*	GRW_FIX_TB_ALIGN	1
+*	GRW_FLOAT_TB_ALIGN	1
+*	GRW_FT_MISS_NOD_TREE_FRGR	13
+*	GRW_FT_EDIT_NOD_TREE_FRGR	14
+*	GRW_FT_MDFD_NOD_TREE_FRGR	9
+*	GRW_FT_MISS_NOD_GR_FRGR	13
+*	GRW_FT_EDIT_NOD_GR_FRGR	14
+*	GRW_FT_MDFD_NOD_GR_FRGR	9
+*	GRW_T_OMIT_NOD_FRGR	15
+*	GRW_G_OMIT_NOD_FRGR	15
+*	GRW_G_OMIT_NOD_BKGR	1
+*	GRW_T_EXTRNLFL_FNCTN_BKGR	5
+*	GRW_G_EXTRNLFL_FNCTN_BKGR	5
+*	GRW_SEL_HL_CLR	18
+*	GRW_FILE_HL_CLR	19
+*	GRW_SP_FILE_HL_CLR	5
+*	GRW_UNDEF_NODE_CLR	13
+*	GRW_FONT_NAME	"Arial"
+*	GRW_FONT_SIZE	12
+#	GROUP_END
+#	GROUP_START	FCWCO_GROUP
+*	CLR_FC_ARW	3
+*	CLR_FC_BG	1
+*	CLR_FC_JMP	3
+*	CLR_FC_LINE	4
+*	CLR_FC_SMB	25
+*	CLR_FC_OTHR_SMB	26
+*	CLR_FC_XPND	11
+*	CLR_FC_BLK	5
+*	CLR_FC_TXT	14
+*	CLR_TTL	1
+*	CLR_TTX	5
+*	CLR_BRDR	4
+*	CLR_TXT	4
+*	CLR_CASE_LN	3
+*	CLR_SYMB	8
+*	CLR_SEL	23
+*	CLR_JST_XPND	6
+*	FL_HLGHT_CLR	19
+*	CONN_HL_CLR	4
+*	CONN_HL_CLR2	17
+*	CONN_HL_CLR3	6
+*	JUMP_CON_HL_CLR	16
+*	BX_BG_CLR	23
+*	MACRO_BOX_CLR	21
+*	DECESION_BOX_CLR	22
+*	LOOP_BOX_CLR	22
+*	CONC_BOX_CLR	24
+*	FC_SRXH_SMBL_CLR	16
+*	FC_CALL_SMBL_HL_CLR	17
+*	FC_STTNG_IMPLCT_ELSE	1
+*	FC_STTNG_AUTO_CLPS	0
+*	FC_STTNG_PRCPTV_IF	1
+*	FC_STTNG_YES_STR	"YES"
+*	FC_STTNG_NO_STR	"NO"
+*	FC_PRNT_COMP_ID	3
+*	FC_SYMBL_THKNS_ID	0
+*	FC_CONN_LN_THKNS	0
+*	FC_PRN_SYMBL_THKNS	1
+*	FC_PRN_CONN_LN_THKNS	1
+*	FC_CD_CVRG	1
+*	FC_DSP_TTL_CMT	1
+*	FC_DSP_GEN_CMT_IN_FC	1
+*	FC_DSP_GEN_CMT_PERIOD_SPLT	1
+*	FC_DSP_GEN_CMT_PATTERN	0
+*	FC_FONT_CURR_SZ	9
+*	FC_FONT_DEFAULT_SZ	9
+*	FC_FONT_NAME	"Arial"
+*	FCW_TB_PRESENT	1
+*	FCW_TB_TYPE	0
+*	FCW_FIX_TB_ALIGN	1
+*	FCW_FLOAT_TB_ALIGN	0
+*	FC_SRCH_MODE	0
+*	FC_SRCH_STR	""
+*	FC_SRCH_CAS_SNSTV	0
+*	FC_SRCH_WHOLEWRD	0
+#	GROUP_END
+#	GROUP_START	GREP_GROUP
+*	GR_SPS	""
+*	GR_RPS	""
+*	GR_TFPS	""
+*	GR_APP	0
+*	GR_CS	0
+*	GR_FO	0
+*	GR_LS	0
+*	GR_OP	0
+*	GR_RE	0
+*	GR_OS	0
+*	GR_OM	0
+*	GR_SD	0
+*	GR_WW	0
+*	GR_ST	0
+#	GROUP_END
+#	GROUP_START	FC_VISIO_GROUP
+*	FC_ONE_PG	1
+*	FC_PG_W	8.500000
+*	FC_PG_H	11.000000
+*	FC_SCL	100
+*	FC_FRST_SYM	0
+*	FC_CX	50
+*	FC_CY	50
+*	FC_LGL_CON	1
+*	FC_OFF_PG_CON	0
+*	FC_FOR	2003
+*	FC_PATH	"C:\Users\shaikat\Documents\workspace\es578a\"
+#	GROUP_END
+#	GROUP_START	FLG_GROUP
+*	ECF_AE	0
+*	ECF_ADS	1
+*	ECF_AS	0
+*	AR_BLK	1
+*	AR_BM	1
+*	AR_CMT	1
+*	AR_CEO	1
+*	AR_CEA4	0
+*	AR_CRSS	1
+*	ECF_DSOI	1
+*	ECF_DNR	0
+*	AR_FSS	1
+*	ECF_FIB	0
+*	ECF_GU	1
+*	AR_MEM1	1
+*	AR_MEM3	1
+*	FO_ATF	1
+*	ADD_HINC	1
+*	ECF_NSFI	0
+*	ECF_OEF	0
+*	ECF_OI	0
+*	ECF_PMOPS	1
+*	AR_PNS	1
+*	AR_PPS	0
+*	ECF_PADS	0
+*	ECF_RAO	0
+*	AR_SNM	0
+*	AR_SS	1
+*	ECF_SH	1
+*	ECF_TPOO	0
+*	ECF_WP	0
+*	FLW_LN_NO_MRGN_PRSNT	1
+*	ECF_YTPU	1
+*	ECF_PH	1
+*	ECF_CBK	1
+*	ECF_HMD	0
+*	ECF_WRD_SEL	1
+*	ECF_WRD_MVMNT_CTRL_KY	0
+*	FLG_ENABLE_V_SPACE	0
+*	GFL_WP	1
+*	FSP_FAP	0
+#	GROUP_END
+#	GROUP_START	MISC_INT
+*	ECF_CBR	175
+*	ECF_FTD	200
+*	ECF_RFS	100
+*	OW_RFT	0
+#	GROUP_END
+#	GROUP_START	PRJ_FILES_GROUP
+*	pjfl_bkgr	1
+*	pjfl_txt_4gr	0
+*	pjfl_lns_4gr	0
+*	pjfl_fnm	"Arial"
+*	pjfl_fsz	10
+#	GROUP_END
+#	GROUP_START	PRJ_BRWS_GROUP
+*	pjbrw_bkgr	1
+*	pjbrw_txt_4gr	0
+*	pjbrw_lns_4gr	0
+*	pjbrw_fnm	"Arial"
+*	pjbrw_fsz	10
+#	GROUP_END
+#	GROUP_START	PRJ_REPORT_GROUP
+*	pjrep_bkgr	23
+*	pjrep_txt_4gr	0
+*	pjrep_lns_4gr	0
+*	pjrep_fnm	"Arial"
+*	pjrep_fsz	10
+#	GROUP_END
+#	GROUP_START	FILE_REPORT_GROUP
+*	flrep_bkgr	23
+*	flrep_txt_4gr	0
+*	flrep_lns_4gr	0
+*	flrep_fnm	"Arial"
+*	flrep_fsz	10
+#	GROUP_END
+#	GROUP_START	SWITCH_TO_GROUP
+*	st_bkgr	1
+*	st_txt_4gr	0
+*	st_lns_4gr	0
+*	st_fnm	"Arial"
+*	st_fsz	10
+#	GROUP_END
+#	GROUP_START	FUNCTION_PROP_GROUP
+*	fp_bkgr	23
+*	fp_txt_4gr	0
+*	fp_lns_4gr	0
+*	fp_fnm	"Arial"
+*	fp_fsz	10
+#	GROUP_END
+#	GROUP_START	OUTLINE_GROUP
+*	ot_fn_clr	0
+*	ot_bg_clr	1
+*	ot_cls_clr	0
+*	ot_mac_clr	2
+*	ot_fs_clr	15
+*	ot_cmt_clr	5
+*	ot_defns_clr	4
+*	ot_dcln_clr	28
+*	ot_incl_clr	28
+*	ot_fnm	"Arial"
+*	ot_fsz	10
+#	GROUP_END
+#	GROUP_START	FUN_OUTLINE_GROUP
+*	fot_fs_clr	1
+*	fot_fnm	"Verdana"
+*	fot_fsz	9
+#	GROUP_END
+#	GROUP_START	PASTEN_GROUP
+*	p_bg_clr	0
+*	p_rc_bg_clr	0
+*	p_rc_ht_bg_clr	0
+*	p_fr_clr	0
+*	p_fnm	""
+*	p_fsz	0
+*	p_wnd_ncol	0
+#	GROUP_END
+#	GROUP_START	CLPBRD_GROUP
+*	cb_bg_clr	0
+*	cb_fnm	""
+*	cb_fsz	0
+#	GROUP_END
+#	GROUP_START	PHRASE_GROUP
+*	phrs_wnd_bkgr_clr	0
+*	phrs_txt_frgr	0
+*	phrs_mult_txt_frgr	0
+*	phrs_fnt_name	""
+*	phrs_fnt_sz	0
+#	GROUP_END
+#	GROUP_START	FOFNH_GROUP
+#	GROUP_END
+#	GROUP_START	FODNH_GROUP
+#	GROUP_END
+#	GROUP_START	AFTPFNH_GROUP
+@	ENTITY_GROUP_START
+*	STRG	"C:\Users\shaikat\Documents\workspace\eegproc2\eegproc2.h"
+@	ENTITY_GROUP_END
+@	ENTITY_GROUP_START
+*	STRG	"C:\Users\shaikat\Documents\workspace\eegproc2\eegproc2.cpp"
+@	ENTITY_GROUP_END
+#	GROUP_END
+#	GROUP_START	AFTPDNH_GROUP
+@	ENTITY_GROUP_START
+*	STRG	"C:\Users\shaikat\Documents\workspace\eegproc2"
+@	ENTITY_GROUP_END
+#	GROUP_END
+#	GROUP_START	VCIMPRTPRJFH_GROUP
+#	GROUP_END
+#	GROUP_START	VCIMPRTPRJDH_GROUP
+#	GROUP_END
+#	GROUP_START	HIFNH_GROUP
+#	GROUP_END
+#	GROUP_START	HIDNH_GROUP
+#	GROUP_END
+#	GROUP_START	SFFNH_GROUP
+#	GROUP_END
+#	GROUP_START	SFDNH_GROUP
+#	GROUP_END
+#	GROUP_START	RBFNH_GROUP
+#	GROUP_END
+#	GROUP_START	RBDNH_GROUP
+#	GROUP_END
+#	GROUP_START	WBFNH_GROUP
+#	GROUP_END
+#	GROUP_START	WBDNH_GROUP
+#	GROUP_END
+#	GROUP_START	RSHL_GROUP
+#	GROUP_END
+#	GROUP_START	GTPHL_GROUP
+#	GROUP_END
+#	GROUP_START	GRSHL_GROUP
+#	GROUP_END
+#	GROUP_START	GTFHL_GROUP
+#	GROUP_END
+#	GROUP_START	GTDHL_GROUP
+#	GROUP_END
+#	GROUP_START	GIFHL_GROUP
+#	GROUP_END
+#	GROUP_START	GAIFHL_GROUP
+#	GROUP_END
+#	GROUP_START	GFTHL_GROUP
+#	GROUP_END
+#	GROUP_START	GTBSGHL_GROUP
+@	ENTITY_GROUP_START
+*	STRG	"ArCeps"
+@	ENTITY_GROUP_END
+#	GROUP_END
+#	GROUP_START	FV_GROUP
+@	ENTITY_GROUP_START
+*	FV_FN_NM	"p_Filter"
+*	FV_FL_NM	"C:\Users\shaikat\Documents\workspace\eegproc2\eegproc2.cpp"
+@	ENTITY_GROUP_END
+@	ENTITY_GROUP_START
+*	FV_FN_NM	"p_ArBurg"
+*	FV_FL_NM	"C:\Users\shaikat\Documents\workspace\eegproc2\eegproc2.cpp"
+@	ENTITY_GROUP_END
+@	ENTITY_GROUP_START
+*	FV_FN_NM	"p_ArCeps"
+*	FV_FL_NM	"C:\Users\shaikat\Documents\workspace\eegproc2\eegproc2.cpp"
+@	ENTITY_GROUP_END
+#	GROUP_END
+#	GROUP_START	SIGN_GROUP
+#	GROUP_END
+#	GROUP_START	INC_PATH_GROUP
+#	GROUP_END
+#	GROUP_START	GSFTH
+@	ENTITY_GROUP_START
+*	STRG	"*.cpp;*.c;"
+@	ENTITY_GROUP_END
+#	GROUP_END
+#	GROUP_START	GHSFTH
+@	ENTITY_GROUP_START
+*	STRG	"*.hpp;*.h;"
+@	ENTITY_GROUP_END
+#	GROUP_END
+#	GROUP_START	FCEXPDNH_GROUP
+@	ENTITY_GROUP_START
+*	STRG	"C:\Users\shaikat\Documents\workspace\eegproc2"
+@	ENTITY_GROUP_END
+#	GROUP_END
+#	GROUP_START	FCEXPFNH_GROUP
+@	ENTITY_GROUP_START
+*	STRG	"C:\Users\shaikat\Documents\workspace\eegproc2\ArCeps"
+@	ENTITY_GROUP_END
+@	ENTITY_GROUP_START
+*	STRG	"C:\Users\shaikat\Documents\workspace\eegproc2\ArBurg"
+@	ENTITY_GROUP_END
+@	ENTITY_GROUP_START
+*	STRG	"C:\Users\shaikat\Documents\workspace\eegproc2\Filter"
+@	ENTITY_GROUP_END
+#	GROUP_END
+#	GROUP_START	GGNSHL_GROUP
+#	GROUP_END
+#	GROUP_START	GGNFTSHL_GROUP
+#	GROUP_END
+#	GROUP_START	GFCNSHL_GROUP
+#	GROUP_END
+#	GROUP_START	GRP_BAT_FL_HSTRY
+#	GROUP_END
+#	GROUP_START	SECOND_FILE
+*	SF_DT	"04/22/200716:43"
+#	GROUP_END
+#	FILE_END
