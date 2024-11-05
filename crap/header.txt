@@ -1,0 +1,19 @@
+
+Fp1Fz	Fp2Fz	F3Fz	F4Fz	F7Fz	F8Fz	T3Cz	T4Cz	C3Cz	P3Pz	P4Pz	T5Pz	T6Pz	O1Pz	O2Pz	
+
+% Time taken in second: 0
+% Resolution(# Samples): 1
+% Max AR Order: 12
+% Max Frame Length: 1000
+% Max Sample Period: 4
+% Decimation rate: 2
+% (1:= uV 1000:= mV): 1
+Fp1Fz	Fp2Fz	F3Fz	F4Fz	F7Fz	F8Fz	T3Cz	T4Cz	C3Cz	P3Pz	P4Pz	T5Pz	T6Pz	O1Pz	O2Pz	
+
+% Time taken in second: 4
+% Resolution(# Samples): 1
+% Max AR Order: 12
+% Max Frame Length: 1000
+% Max Sample Period: 4
+% Decimation rate: 2
+% (1:= uV 1000:= mV): 1
