@@ -1,0 +1,9 @@
+#../postproc /mnt/cdrom/RV49617A.txt Cepstrum 1 1000 21 11 21 12 13
+#../postproc /mnt/cdrom/RV49617B.txt Cepstrum 1 1 21 11 21 12 13
+#../postproc /mnt/cdrom/02RV49617B.txt Cepstrum 1 1 21 11 21 12 13
+#../postproc /mnt/cdrom/RV49617C.txt Cepstrum 1 1 21 11 21 12 13
+#../postproc /mnt/cdrom/RV49617D.txt Cepstrum 1 1 21 11 21 12 13
+../postproc /mnt/cdrom/RV49617E.txt Cepstrum 1 1 21 11 21 12 13
+#./postproc /mnt/cdrom/01RV49617F.txt Cepstrum 1 1 21 11 21 12 13
+#./postproc /mnt/cdrom/02RV49617F.txt Cepstrum 1 1 21 11 21 12 13
+#./postproc /mnt/cdrom/RV49617G.txt Cepstrum 1 1 21 11 21 12 13
