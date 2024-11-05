@@ -1,0 +1,70 @@
+
+F4-T4	T4-P4	P4-O2	F3-T3	T3-P3	P3-O1	
+
+% Time taken in second: 46
+% Resolution(# Samples): 150
+% Max AR Order: 40
+% Max Frame Length: 1000
+% Max Sample Period: 4
+% Decimation rate: 1
+% (1:= uV 1000:= mV): 1
+% mean Ep: 0.765383
+% mean Order: 10.2853
+
+% mean Length: 3.71682
+
+F4-T4	T4-P4	P4-O2	F3-T3	T3-P3	P3-O1	
+
+% Time taken in second: 18
+% Resolution(# Samples): 150
+% Max AR Order: 40
+% Max Frame Length: 1000
+% Max Sample Period: 4
+% Decimation rate: 1
+% (1:= uV 1000:= mV): 1
+% mean Ep: 0.755519
+% mean Order: 10.2344
+
+% mean Length: 3.71851
+
+F4-T4	T4-P4	P4-O2	F3-T3	T3-P3	P3-O1	
+
+% Time taken in second: 30
+% Resolution(# Samples): 150
+% Max AR Order: 40
+% Max Frame Length: 1000
+% Max Sample Period: 4
+% Decimation rate: 1
+% (1:= uV 1000:= mV): 1
+% mean Ep: 0.737742
+% mean Order: 10.2326
+
+% mean Length: 3.72033
+
+F4-T4	T4-P4	P4-O2	F3-T3	T3-P3	P3-O1	
+
+% Time taken in second: 95
+% Resolution(# Samples): 150
+% Max AR Order: 40
+% Max Frame Length: 1000
+% Max Sample Period: 4
+% Decimation rate: 1
+% (1:= uV 1000:= mV): 1
+% mean Ep: 0.757525
+% mean Order: 10.2644
+
+% mean Length: 3.71873
+
+F4-T4	T4-P4	P4-O2	F3-T3	T3-P3	P3-O1	
+
+% Time taken in second: 164
+% Resolution(# Samples): 150
+% Max AR Order: 40
+% Max Frame Length: 1000
+% Max Sample Period: 4
+% Decimation rate: 1
+% (1:= uV 1000:= mV): 1
+% mean Ep: 5.82414
+% mean Order: 10.2855
+
+% mean Length: 3.7006
