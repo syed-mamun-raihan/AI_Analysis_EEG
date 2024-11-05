@@ -1,0 +1,129 @@
+function [success, net, svmStruct, svmCp, stats, dataX, dataY] = testCompsite(sample,raw,ch1,ch2,classA,classB)
+%[success, net, svmStruct, svmCp, stats, dataX, dataY] = testARModel(sample,ch1,ch2,classA,classB)
+%------------------------------------
+%   INPUT
+%------------------------------------
+%  sample:  variable containing channel data
+%  raw: true if data need to be filtered
+%  ch1:  MONTAGE1 such as F3Fz - Numeric Value
+%  ch2:  MONTAGE2 such as F4Fz - Numeric Value
+%  classA:  Numeric Value to indicate 1st Type
+%  classB:  Numeric Value to indicate 2nd type
+%------------------------------------
+%   OUTPUT
+%------------------------------------
+%  success: a vector of classification success using NN, SVM & GLM
+%  net: generated and used network
+%  svmStruct: Support vector machine struct
+%  svmCp: Classification performance of SVM
+%  stats: descriptive statistics from GLM
+%  dataX: data used through out the system (N * P)
+%  dataY: data used through out the system (N * 1)
+
+close all;
+
+pack;
+MONTAGE1 = ch1;
+MONTAGE2 = ch2;
+msg_out = ['Testing Composite Model Using NN, SVM, GLM, Multiple Regression' ]
+sampleStart = 1;
+sampleLength = 1000;
+
+inputTrain = [];
+inputTest = [];
+targetTrain = [];
+targetTest = [];
+inputData = [];
+targetData = [];
+
+sampleSize = size(sample);
+trainOrTest = 0;
+
+    for i=0:sampleLength:(sampleSize(1,1)-sampleLength+1)
+    
+        curStart = i + sampleStart;
+        curEnd = i+ sampleLength;
+
+        test1 = sample(curStart:curEnd,MONTAGE1);
+        test2 = sample(curStart:curEnd,MONTAGE2);
+        
+        %remove dc and baseline and filter
+        if(raw == true)
+            test1 = preProcess(test1);
+            test2 = preProcess(test2);
+        end
+
+        [Cx,Rx,Lx] = princomp([test1 test2]);
+
+         ceps = abs(rceps(test1));
+
+         dataA = [Rx(1:36,1)./10;ceps(1:12,1)];
+         
+         ceps = abs(rceps(test2));
+         dataB = [Rx(1:36,2)./10;ceps(1:12,1)];
+        if trainOrTest == 0 
+            inputTrain = [inputTrain dataA dataB];
+            targetTrain = [targetTrain classA classB];
+            trainOrTest = 1;
+        else
+            inputTest = [inputTest dataA dataB];
+            targetTest = [targetTest classA classB];
+            trainOrTest = 0;
+        end
+    end
+    pack;
+    P1 = inputTrain;
+    T1 = targetTrain;
+    P2 = inputTest;
+    input_range = minmax([P1 P2]);
+    size_data = size(P1);
+    net = newff(input_range, [size_data(1,1) 1],{'tansig','logsig'},'trainlm');
+    net.trainParam.epochs = 50;
+    net.trainParam.goal = 0.01;
+    net.trainParam.min_grad = 0.01;
+    net.trainParam.mu = 0.01;
+    net = train(net,P1,T1);
+% following line is for experiment    
+%-------------------------------------------
+    temp = sim(net,P2);
+    length_t = size(temp); 
+    for i=1:2:length_t(1,2)
+        if i== length_t(1,2)
+            if temp(1,i) < 0.5
+                temp(1,i) = classA;
+            else
+                temp(1,i) = classB;
+            end
+        elseif i< length_t(1,2)
+            if temp(1,i) < temp(1,i+1)
+                temp(1,i) = classA;
+                temp(1,i+1) = classB;
+            else
+                temp(1,i) = classB;
+                temp(1,i+1) = classA;
+            end
+        end
+    end
+    T2 = targetTest;
+    Y2 = temp;
+    error = abs(classB-classA);
+    errorCount = sum(abs(T2 - Y2))/error;
+    successPcnt = (length_t(1,2) - errorCount)/length_t(1,2);
+%-----------------------------------------------------------------------
+    dataX = [P1 P2]';
+    groups = [T1 T2];
+    [trainX,testX] = crossvalind('holdOut',groups);
+    cp = classperf(groups);
+    svmStruct = svmtrain(dataX(trainX,:),groups(trainX),'kernel_function','rbf');
+    classes = svmclassify(svmStruct, dataX(testX,:));
+    classperf(cp, classes,testX);
+    cp.CorrectRate;
+    svmCp = cp;
+%-------------------------------------------------------------------------  
+    dataY = groups';
+    [b,dev,stats] = glmfit(dataX, dataY);
+    [b,bint,r,rint,stats] = regress(dataY,dataX);
+    success = [successPcnt cp.CorrectRate dev stats(1,4)];
+    
+end
+%

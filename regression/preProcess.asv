@@ -1,0 +1,11 @@
+[newdata] = preProcess(olddata)
+    x1 = 1/250:1/250:4;
+    x1 = x1';
+    [b,a]=butter(6,[.001,.25],'bandpass');
+
+    temp = olddata - mean(olddata);
+    px = polyfit(x1,temp,2);
+    py = polyval(px,x1);
+    temp = temp - py;
+    temp = filter(b,a,temp);
+    newdata = temp;
